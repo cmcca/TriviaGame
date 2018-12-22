@@ -1,0 +1,56 @@
+body{
+	background: url("http://www.ggewow.com/p/2018/04/lined-paper-texture-background-powerpoint-new-graphicpanic-in-lined-paper-background-for-powerpoint.jpg");
+	font-family:'Indie Flower', cursive;
+	font-size: 25px;
+}
+
+header{
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+#timeLeft {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.btn-primary,.reset{
+	background-color: #68697e;
+	color: white;
+    font-weight: bolder;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #2d2e3f;
+}
+
+.container{
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.thisChoice:hover{
+	background-color: #f0ff1c;
+    color: rgb(128, 128, 128);
+    font-size: 40px;
+	
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		size: 200%;
+	}	
+}
